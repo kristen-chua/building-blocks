@@ -1,0 +1,38 @@
+*{
+    padding: 20px;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    font-size: 100px;   
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    background-color: palevioletred ;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+@media screen and (max-width: 600 px)
+
+main{
+    background-color: antiquewhite;
+}
+article{
+    background-color: darksalmon;
+}
+
+section{
+    background-color: darkseagreen;
+}
+aside{
+    background-color: dodgerblue;
+}
+footer{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: repeating-linear-gradient( 45deg, #444cf7, #444cf7 5px, #e5e5f7 5px, #e5e5f7 25px );
+}
